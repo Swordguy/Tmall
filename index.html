@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="page-head">
+			<div class="head-top">				
+			</div>
+			<div class="head-cen">
+				
+			</div>
+			<div class="head-bot">
+			    <div class="filter-head-top"></div> <!--此处作填充-->
+			    <div class="filter-head-bot">     <!--此处作填充-->			    	   
+			    </div>			    			    
+			</div>
+		</div>
+		<div class="page-bf">
+			<div class="aside">
+			<div class="asidec">
+            <ul>
+            	<li><a href=""><img src="img/aside1.png"/></a></li>
+            	<li><a href="">购物车</a></li>
+            	<li><a href=""><img src="img/aside2.png" alt="" /></a></li>
+            	<li><img src="img/aside3.png"/></li>
+            	<li><a href=""><img src="img/aside4.png"/></a></li>
+            	<li><a href=""><img src="img/aside5.png" alt="" /></a></li>
+            	<li><a href=""><img src="img/aside6.png" alt="" /></a></li>
+            </ul>
+		   </div>
+		   <div class="asideb">
+		   	<ul>
+		   		<li><a href=""><img src="img/aside9.png" alt="" /></a></li>
+		   		<li><a href=""><img src="img/aside8.png" alt="" /></a></li>
+		   		<li><a href=""><img src="img/aside7.png" alt="" /></a></li>
+		   	</ul>
+		   </div>
+		</div>			
+		    <div class="page-body">
+		    	<div class="page-body-top">
+		    		<div class="enter">
+		    			<span>喵 , 欢迎来天猫</span>
+		    			<a href="">请登录</a>
+		    			<a href="">免费注册</a>
+		    		</div>
+		    		<div class="myMall">
+		    			<span id="myMallTB">
+		    				<a href="" id="myTB">我的淘宝</a>
+		    				<div id="myMalla">
+					           <span>
+						            <a href="">已买到的宝贝</a>
+						            <a href="">已卖出的宝贝</a>
+					           </span>
+				            </div>
+		    			</span>
+		    			<a href="">我关注的品牌</a>
+		    			<a href="" id="num">购物车<b>0</b>件</a>
+		    			<span id="myCtrl">
+		    				<a href="" id="myCtrlt">收藏夹</a>
+		    				<div id="myCtrlb">
+					           <span>
+						            <a href="">收藏的宝贝</a>
+						            <a href="">收藏的店铺</a>
+					           </span>
+				            </div>
+		    			</span>
+		    			<span>|</span>
+		    			<span id="phone">
+		    				<a href="" id="phonea">手机版</a>
+		    				<div id="phoneMall">
+		    					<img src="img/topbgimg.png" alt="" />
+		    				</div>
+		    			</span>
+		    			
+		    			<a href="">淘宝网</a>
+		    			<a href="">企业购</a>
+		    			<a href="" id="business">商家支持</a>
+		    			<a href="" id="netNav">网站导航</a>
+		    		</div>
+		    	</div>		    
+		    	<div class="page-body-logo">
+		    		<a href=""><img src="img/logo.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="search">
+					<div>
+						<input type="text" placeholder="好睡眠好枕头" id="search"><button>搜索</button>
+					</div>
+					<span><a href="">T恤</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">连衣裙</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">夏凉被</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">电动牙刷</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">卧室灯</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">防晒衣</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">凉鞋</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">双肩包</a></span>
+	     		    <span>|</span>
+	     		    <span><a href="">口红</a></span>
+			</div>
+		        <div class="menu">
+			    	<div class="menu-top">
+			    		 <span id="myll">商品分类</span>
+			    		 <div>				    		 
+			    		 <a href="">天猫超市<span class="mall"></span></a>   <!--效果出现的时候，之所以与原版本不一样是因为图片的颜色和这一行的北京颜色不一样-->
+        			     <a href="">天猫国际<span class="mall"></a>
+        			     <a href="">天猫会员<span class="mall"></a>
+        			     <a href="">品牌街<span class="mall"></a>
+        			     <a href="">电器城<span class="mall"></a>
+        			     <a href="">喵先生<span class="mall"></a>
+        			     <a href="">医药馆<span class="mall"></a>
+        			     <a href="">营业厅<span class="mall"></a>
+        			     <a href="">魅力值<span class="mall"></a>
+        			     <a href="">飞猪旅行<span class="mall"></a>
+        		         <a href="">苏宁易购<span class="mall"></a>
+        		         
+        		         </div>
+			    	</div>
+			    	<div class="menu-left">
+			    		<ul>
+        			       <li><a href="">女装/内衣</a><div id="menulimg"><img src="img/detail.png" alt="" /></div></li> <!--之所以没有将女装、内衣分开用<a></a>写，是为了方便，其布局和CSS写法一样的-->
+        			       <li><a href="">男鞋/运动户外</a><div id="menulim"><img src="img/detail.png" alt="" /></div></li>          <!--并且用图片代替是因为顶部写了相同的格式的代码-->
+        			       <li><a href="">女鞋/男鞋/箱包</a></li>        <!--还可以通过Ajax,只创造一个div盒子，li的hover来触发Ajax来实时更新盒子里面的内容---非首选-->
+        			       <li><a href="">化妆品/个人护理</a></li>        <!--或者创造多个盒子叠加在一起，利用disblock来触发显示和隐藏-->
+        			       <li><a href="">腕表/珠宝首饰/眼镜</a></li>
+        			       <li><a href="">手机/数码/电脑办公</a></li>
+        			       <li><a href="">母婴玩具</a></li>
+        			       <li><a href="">零食/进口食品/茶酒</a></li>
+        			       <li><a href="">生鲜水果</a></li>
+        			       <li><a href="">大家电/生活电器</a></li>
+        			       <li><a href="">家具建材</a></li>
+        			       <li><a href="">汽车/配件/用品</a></li>
+        			       <li><a href="">家纺/家饰/鲜花</a></li>
+        			       <li><a href="">医药保健</a></li>
+        			       <li><a href="">厨具/收纳/宠物</a></li>
+        			       <li><a href="">图书音像</a></li>
+        		        </ul>
+			    	</div>	
+			    	<div id="head-img">   <!--存放图片-->	
+			    		<div id="inner-head"><img src="img/img0.jpg" alt="" /></div>
+			    	    <div class="menu-img">
+			    			<div><img src="img/img11.jpg" alt="" /></div>
+			    			<div><img src="img/img11.jpg"/></div>
+			    		</div>
+			    	 </div>	
+			    	<div class="cir">    <!--进度圈-->
+			    		<span class="active"></span>
+			    		<span></span>
+			    		<span></span>
+			    		<span></span>
+			    		<span></span>
+			    		<span></span>
+			    	</div>
+		        </div>
+		        <div class="detail-content">  <!--可随时添加的内容-->
+                    <div class="content-top">
+               	        <div class="brand">
+               	  	        <div id="brand-left"><img src="img/brand.jpg" alt="" /></div>
+               	  	            <div id="brand-right">
+               	  		            <span>
+               	  			            <div class="focus-span">              	  			            
+	               	  			            <span class="focus-span-cen"><img src="img/brand01.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand10.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand21.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand20.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span>
+               	  			            <div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span> 
+               	  		            <span>
+               	  		            	<div class="focus-span">
+	               	  			            <span class="focus-span-cen"><img src="img/brand11.jpg"/class="focus-img"></span>
+	               	  			            <span class="focus-span-front"><img src="img/brand00.jpg"/class="focus-img"></span>
+               	  			            </div>
+               	  			            <div class="focus-intro">
+	               	  				        <span><img src="img/aside3.png"/></span>
+	               	  			            <span>关注人数<b>345</b>万</span>
+	               	  			            <span><a href="">点击进入</a></span>
+               	  			            </div>
+               	  		            </span>
+               	  		            <span id="change">
+                                        <div id="refresh">
+                                        	<img src="img/refresh.png"/>
+                                        </div>
+               	  		            </span>
+               	  	           </div>              	  	
+               	        </div>
+               	        <div class="brand-bottom">
+               	        	<div class="fashion">
+               	        		<span>潮流前沿</span>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        		<hr/>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        	</div>
+               	        	<div class="fashion">
+               	        		<span>全球时尚</span>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        		<hr/>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        	</div>
+               	        	<div class="fashion">
+               	        		<span>潮流前沿</span>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        		<hr/>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        	</div>
+               	        	<div class="fashion">
+               	        		<span>潮流前沿</span>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        		<hr/>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        	</div>
+               	        	<div class="fashion">
+               	        		<span>潮流前沿</span>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        		<hr/>
+               	        		<div class="fashion-bot">                  
+               	        			<a href="">
+               	        				<span>焕新</span>
+               	        			    <span>品牌精选新品</span>
+               	        			    <span><img src="img/brandeg.png"/ class="fashion-img"></span>
+               	        			</a>
+               	        		</div>
+               	        	</div>
+               	        </div>
+                        <div class="insertion">
+                        	<a href=""><img src="img/bottom.jpg"/></a>
+                        </div>
+                    </div> 
+                    <div class="content-cen">
+                    	<div class="module">
+                    		<div class="module-text">
+                    			<span id="filet-only">&nbsp;</span>  <!--若为空，则有一个br换行符，所以导致text-l与本行不在同一行-->
+                    			<span class="text-l">美丽人生 </span>
+                    			<span class="text-c">FASHION & BEAUTY</span>
+                    			<span class="text-r">                    				
+                    			    <a href="">连衣裙</a>
+                    			    <a href="">T恤男</a>
+                    			    <a href="">美容护肤</a>
+                    			    <a href="">休闲男鞋</a>
+                    			    <a href="">黄金项链</a>
+                    			    <a href="">单鞋</a>
+                    			    <a href="">女包</a>
+                    			    <a href="">文胸</a>
+                    			    <a href="">大牌腕表</a>
+                    			</span>
+                    		</div>
+                    		<div class="module-content">                    			
+                    			<a href="" class="module-left">
+                    				<div><img src="img/module-l.jpg" alt="" /></div>
+                    				<div id="module-introduce">
+                    					<!--<span id="module-span">买一送一</span>-->
+                    					<ul id="mi">
+                    						<li>买一送一</li>
+                    						<li>大牌焕新</li>
+                    						<li>潮流美饰</li>
+                    						<li>giveMeAFuckingClassName</li>
+                    					</ul>
+                    				</div> 
+                    				<div>
+                    				<p>袜子原产地活动</p>
+                    				<p>袜子品质推荐</p> 
+                    				</div>
+                    			</a>	                    			
+                    			<div class="module-right">
+                    				<div class="right-l">
+                    					<ul>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-l-a">
+                    								<span></span> <!--用于占位-->
+                    						        <span class="title">轻薄夹克</span>
+                    						        <span class="sub-title">时尚潮搭</span>
+                    						        <span><img src="img/module-each.jpg" alt="" / class="trans-l"></span>
+                    						    </a>
+                    						</li>
+                    					</ul>
+                    				</div>
+                    				<div class="right-r">
+                    					<ul>
+                    						<li>
+                    							<a href="" class="right-r-a">
+	                    							<span></span> <!--用于占位-->
+	                    						    <span class="title">轻薄夹克</span>
+	                    						    <span class="sub-title">时尚潮搭</span>
+	                    						    <span><img src="img/module-each.jpg" alt="" / class="trans-r"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-r-a">
+	                    							<span></span> <!--用于占位-->
+	                    						    <span class="title">轻薄夹克</span>
+	                    						    <span class="sub-title">时尚潮搭</span>
+	                    						    <span><img src="img/module-each.jpg" alt="" / class="trans-r"></span>
+                    						    </a>
+                    						</li>
+                    						<li>
+                    							<a href="" class="right-r-a">
+	                    							<span></span> <!--用于占位-->
+	                    						    <span class="title">轻薄夹克</span>
+	                    						    <span class="sub-title">时尚潮搭</span>
+	                    						    <span><img src="img/module-each.jpg" alt="" / class="trans-r"></span>
+                    						    </a>
+                    						</li>
+                    					</ul>
+                    				</div>
+                    			</div>
+                    		</div>
+                    	</div>
+                    	<div class="add"></div>  <!--与.module一样，随时添加相同格式的内容-->
+                    </div>		            
+		        </div>
+		    </div>		    
+		    <div class="page-foot">	
+		    	<div class="page-foot-top">
+		    	    <div id="inner-cen">
+		    	    	<div id="inner-top">
+		    	    		<a href="" class="inner-a">
+		    	    			<span>		    	    				
+		    	    				<b>品质保障</b>
+		    	    			    <p>品质护航 购物无忧</p>		    	    				
+		    	    			</span>
+		    	    		</a>
+		    	    		<a href="" class="inner-a">
+		    	    			<span>
+		    	    				<b>七天无理由退货</b>
+		    	    				<p>提供售后无忧保障</p>
+		    	    			</span>
+		    	    		</a>
+		    	    		<a href="" class="inner-a">
+		    	    			<span>
+		    	    				<b>特色服务体验</b>
+		    	    				<p>为您呈现不一样的服务</p>
+		    	    			</span>
+		    	    		</a>
+		    	    		<a href="" class="inner-a" >
+		    	    			<span id="inner-b">
+		    	    				<b>帮助中心</b>
+		    	    				<p>您的购物指南</p>
+		    	    			</span>
+		    	    		</a>
+		    	    	</div>
+		    	    	<div id="inner-bottom">
+		    	    		<span>
+		    	    			<ul>
+		    	    			    <li class="page-li">购物指南</li>
+		    	    			    <li><a href="">免费注册</a></li>
+		    	    			    <li><a href="">开通支付宝</a></li>
+		    	    			    <li><a href="">支付宝充值</a></li>
+		    	    		    </ul>
+		    	    		</span>
+		    	    		<span>
+		    	    			<ul>
+		    	    			    <li class="page-li">天猫保障</li>
+		    	    			    <li><a href="">发票报账</a></li>
+		    	    			    <li><a href="">售后规则</a></li>
+		    	    			    <li><a href="">缺货赔付</a></li>
+		    	    		    </ul>
+		    	    		</span>
+		    	    		<span>
+		    	    			<ul>
+		    	    			    <li class="page-li">支付方式</li>
+		    	    			    <li><a href="">信用卡</a></li>
+		    	    			    <li><a href="">余额宝</a></li>
+		    	    			    <li><a href="">快捷支付</a></li>
+		    	    		    </ul>
+		    	    		</span>
+		    	    		<span>
+		    	    			<ul>
+		    	    			    <li class="page-li">商家服务</li>
+		    	    			    <li><a href="">商家入驻</a></li>
+		    	    			    <li><a href="">商家中心</a></li>
+		    	    			    <li><a href="">天猫规则</a></li>
+		    	    			    <li><a href="">物流服务</a></li>
+		    	    			    <li><a href="">喵言喵语</a></li>
+		    	    		    </ul>
+		    	    		</span>
+		    	    		<span>
+		    	    			<ul>
+		    	    			    <li class="page-li">手机天猫</li>
+		    	    			    <li><a href=""><img src="img/Tmall.png" alt="" /></a></li>
+		    	    			    
+		    	    			    
+		    	    		    </ul>
+		    	    		</span>
+		    	    	</div>
+		    	    </div>
+		        </div>
+		        <div class="page-foot-bottom">
+		        	<div>
+	    		        <ul>
+	    			        <li><a href="">关于天猫</a></li>
+	    			        <li><a href="">帮助中心</a></li>
+	    			        <li><a href="">开放平台</a></li>
+	    			        <li><a href="">诚聘英才</a></li>
+	    			        <li><a href="">知识产权</a></li>
+	    			        <li><a href="">廉正举报</a></li>
+	    			        <li><a href="">联系我们</a></li>
+	    			        <li><a href="">网站合作</a></li>
+	    			        <li><a href="">法律声明及隐私权政策</a></li>
+	    			        <li><a href="">规则意见征集</a></li>
+	    		        </ul>
+	    	        </div>
+	    	        
+	    	        <p>
+	    		        <span><a href="">阿里巴巴集团</a></span>
+	    		        <span>|</span>
+	    		        <span><a href="">淘宝网</a></span>
+	    		        <span>|</span>
+	    		        <span><a href="">天猫</a></span>
+	    		        <span>|</span>
+	    		        <span><a href="">聚划算</a></span>
+	    		        <span>|</span>
+	    		        <span><a href="">全球速卖通</a></span>
+	    	        </p>
+	    	        <p>
+	    		        <span style="margin-right: 40px;">增值电信业务经营许可证： 浙B2-20110446</span>
+	    		        <span >网络文化经营许可证：浙网文 [2015] 0295-065号</span>
+	    		        <span> 12118举报</span>
+	    	        </p>
+	    	        <p>
+	    		                     互联网药品信息服务资质证书编号：<a href="" style="color: rgba(232,232,232,0.5); margin-right: 40px;">浙-（经营性)-2017-0005</a> 
+	    		        <a href="" style="color: rgba(232,232,232,0.5);">浙公网安备 30010002000120号</a>
+	    	        </p>
+	    	        <p>© 2003-2017 TMALL.COM 版权所有</p>
+	    	        <p><img src="" alt="" /><img src="" alt="" /></p>
+		        </div>
+		    </div>
+		</div>
+		
+		<script src="index.js"></script>
+	</body>
+	
+</html>
